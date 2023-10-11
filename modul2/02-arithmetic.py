@@ -1,13 +1,13 @@
 print("Arithmetic Operation")
 print("====================")
 
-input(float("x :"))
-input(float("y :"))
+x = 2
+y = 3
 
 print("x + y :", x + y)
-print("x - y :", xx - y)
-print("x * y :", xx * y)
-print("x / y :", xx / y)
-print("x % y :", xx % y)
-print("x ** y :", xx ** y)
-print("x // y :", xx // y)
+print("x - y :", x - y)
+print("x * y :", x * y)
+print("x / y :", x / y)
+print("x % y :", x % y)
+print("x ** y :", x ** y)
+print("x // y :", x // y)

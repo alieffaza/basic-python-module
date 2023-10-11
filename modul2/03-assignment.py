@@ -1,7 +1,7 @@
 print("Assignment Operation")
 print("====================")
 
-input(float("x :"))
+x = 5
 
 print("x :", x)
 x += 3
@@ -17,4 +17,5 @@ print("x % 7 :", x)
 x //= 3
 print("x // 3 :", x)
 x **= 3
-print(x"x ** 3 :", )
+
+print("x ** 3 :", x)
