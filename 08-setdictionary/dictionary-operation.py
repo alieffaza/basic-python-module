@@ -7,6 +7,7 @@ mahasiswa = {
 
 print("\n Mengakses data Nama:", mahasiswa['nama'])
 
-print("\n Mengecek index data Dictionary:")
-for index, key in enumerate(mahasiswa):
-    print(f'Index:{index}, Kunci:{key}')
+print("\n Mengecek value dari sebuah kunci:")
+for key in mahasiswa:
+    value = mahasiswa[key]
+    print(f'Kunci:{key}, Nilai:{value}')
