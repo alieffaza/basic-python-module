@@ -7,4 +7,5 @@ def main():
     print(f"\n Jari jari lingkaran: {r} \n Tinggi tabung : {t} \n Volume tabung : {volume}")
 
 if __name__ == "__main__":
-    main()
+    print("Informasi module_tabung:")
+    print(dir(module_tabung))

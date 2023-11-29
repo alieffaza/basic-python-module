@@ -13,3 +13,7 @@ class Pekerja:
 
     def displayPekerja(self): #Method
         print(f"Nama: {self.nama}, Gaji: {self.gaji}")
+
+#Object
+pekerja1 = Pekerja("Adrian", "150.000.000")
+pekerja2 = Pekerja("Faza", "20.000.000")

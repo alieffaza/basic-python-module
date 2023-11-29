@@ -1,12 +1,10 @@
+#Program Aritmatika
 import module_arithmetic
 
 def main():
-    x = 2
-    y = 4
-
-    print("Nilai x :", x)
-    print("Nilai y :", y)
-
+    x = float(input("Masukan nilai x : "))
+    y = float(input("Masukan nilai y : "))
+    
     tambah = module_arithmetic.penjumlahan(x, y)
     print(f"Hasil Penjumlahan : {tambah}")
 
