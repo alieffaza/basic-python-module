@@ -1,15 +1,23 @@
-#Class
+#Membuat Class Pekerja:
 class Pekerja:
+    #Variabel untuk mengecek total jumlah pekerja:
     pkTotal = 0
     
-    #Constructor
+    #Constructor dari Class Pekerja:
     def __init__(self, nama, gaji): 
+        #Atribut objek untuk menyimpan nama:
         self.nama = nama
+        #Atribut objek untuk menyimpan gaji:
         self.gaji = gaji
+        #Variabel Class bertambah 1 setiap Objek Pekerja dipanggil:
         Pekerja.pkTotal += 1
 
-    def displayTotal(self): #Method
+    #Method untuk menampilkan total Pekerja:
+    def displayTotal(self):
+        #Menampilkan total Pekerja dari variabel pkTotal:
         print(f"Total Pekerja: {Pekerja.pkTotal}")
 
-    def displayPekerja(self): #Method
+    #Method untuk menampilkan nama dan gaji:
+    def displayPekerja(self):
+        #Menampilkan nama dan gaji yang terdapat pada atribut objek:
         print(f"Nama: {self.nama}, Gaji: {self.gaji}")
