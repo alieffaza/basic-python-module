@@ -62,7 +62,6 @@ class KontakApp:
                 file.write(f"{kontak.nama}, {kontak.no_telp}, {kontak.email}, {kontak.deskripsi}\n")
             messagebox.showinfo("Pemberitahuan", "Data berhasil disimpan ke kontak-saya.txt!") 
 
-if __name__ == "__main__":
-    root = tk.Tk()  
-    app = KontakApp(root)  
-    root.mainloop()  
+root = tk.Tk()  
+app = KontakApp(root)  
+root.mainloop()  

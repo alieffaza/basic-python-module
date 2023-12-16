@@ -1,3 +1,4 @@
+# tkinter digunakan untuk membuat tampilan antarmuka aplikasi
 # Import untuk menggunakan kode dari modul TKinter
 import tkinter as tk # tk adalah as(alias) supaya modul lebih singkat & mudah digunakan
 
@@ -60,7 +61,7 @@ class KontakApp:
         for i, entry in enumerate(self.entry_fields): #untuk mengakses nilai dan indeks dari kotak
 
             # Tampilkan data masukan pada Aplikasi
-            entry.grid(row=i, column=1) # grid untuk posisi
+            entry.grid(row=i, column=1) # grid untuk posisi label
                                         # row untuk posisi baris dan i berarti sesuai index kotaknya
                                         # column untuk posisi kolom, 1 berarti di index 1
 
@@ -106,7 +107,7 @@ class KontakApp:
                         # all untuk mengecek apakah semua value bernilai true(diisi)
 
             # Buat objek Kontak baru
-            kontak = Kontak(*values) # *values untuk membongkat nilai value dan memngirimnya sebagai argumen ke konstruktor
+            kontak = Kontak(*values) # *values untuk membongkar nilai value dan memngirimnya sebagai argumen ke konstruktor
             
             # Tambahkan objek baru ke daftar kontak
             self.listkontak.append(kontak) # append untuk menambahkan data
@@ -187,14 +188,13 @@ class KontakApp:
             
             messagebox.showinfo("Pemberitahuan", "Data berhasil disimpan ke kontak-saya.txt!") 
 
-# Cek Module tersebut
-if __name__ == "__main__":
 
+# method untuk memanggil objek
     # Inisialisasi Aplikasi utama
-    root = tk.Tk()  
+    root = tk.Tk()  #itu menjalankan root dari tkinter untuk menampilkan tampilan aplikasi
 
     # Buat objek KontakApp
-    app = KontakApp(root)  
+    app = KontakApp(root)  # untuk memanggil class kontakapp
 
     # Mulai perulangan untuk aplikasi
-    root.mainloop()  
+    root.mainloop()  # untuk mengulangi aplikasi secara terus menerus
