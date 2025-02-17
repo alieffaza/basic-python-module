@@ -1,2 +1,1 @@
-# Basic Python Programming Module
-This Python programming module is a fundamental component of the first-semester basic programming course at <b>Muhammadiyah University of East Kalimantan</b>. Designed to provide an introductory pathway into Python programming, this module serves as the initial steps for students entering the world of coding. Its primary objective is to impart knowledge and hands-on experience, laying the foundational groundwork essential for aspiring programmers.
+
